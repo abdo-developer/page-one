@@ -1,0 +1,339 @@
+@font-face {
+    src: url(../fonts/JFFlatregular.ttf);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: ar-font;
+}
+
+body {
+    direction: rtl;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: ar-font;
+}
+
+nav {
+    background-color: beige;
+    padding: 15px;
+}
+
+nav img {
+    height:35px;
+}
+
+ul.navbar-nav.mr-auto.ml-auto {
+    padding: 0;
+}
+
+nav ul.navbar-nav li {
+    margin-right: 8px;
+    transition: all 0.3s ease;
+} 
+
+nav ul.navbar-nav li:hover {
+    background-color: rgba(255, 166, 0, 0.7);
+    border-radius: 10px;
+}
+
+nav ul.navbar-nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+nav ul.navbar-nav li a:hover,
+nav ul.navbar-nav li a:focus,
+nav ul.navbar-nav li a:active {
+    color: black;
+}
+
+header {
+    background-image: url(../images/header-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title_bluehost {
+    color: white;
+}
+
+.title_bluehost h4 {
+    margin-top: 110px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.title_bluehost p {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header button.custom-btn {
+    background-color: #6ace26;
+    border-color: transparent;
+    margin-top: 25px;
+    margin-bottom: 65px;
+    margin-right: 44.5%;
+    border-radius: 0;
+    transition: all .3s ease;
+}
+
+header button.custom-btn a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header button.custom-btn svg {
+    margin-right: 5px;
+}
+
+header button.custom-btn:hover,
+header button.custom-btn:active, 
+header button.custom-btn:focus {
+    background-color: #388d00;
+    border-color: #6ace26;
+}
+
+.sec_AboutBluehost .title_section h4 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.bar {
+    height: 4px;
+    width: 90px;
+    background-color: orange;
+    margin: 10px auto 25px;
+}
+
+.sec_AboutBluehost .paragh_one p,
+.sec_AboutBluehost .paragh_two p {
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: justify;
+    border: 1px solid #5555557a;
+    padding: 16px 8px;
+}
+
+section.sec_features {
+    background-color: beige;
+    padding: 25px;
+    margin-top: 65px;
+}
+
+.sec_features .title_features {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sec_features .img_feautured img {
+    height: 100px;
+    margin-right: 35.5%;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.text_introduction p.custom-text { 
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sec_Subscription .title-packages h4 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.card {
+    border-radius: 0;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.card  li svg {
+    display: none;
+}
+
+.card .card-body h5.card-title {
+    font-size: 18px;
+    color: black;
+} 
+
+.card .card-body ul li {
+font-size: 14px;
+text-align: center;
+font-weight: bolder;
+}
+
+.custom-btn-affX {
+    background-color: #6ace26;
+    color: black;
+    border-color: #6ace26;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+
+.custom-btn-affX:hover,
+.custom-btn-affX:focus, 
+.custom-btn-affX:active {
+    background-color: #388d00;
+    border-color: #6ace26;
+}
+
+.custom-btn-affX svg {
+    margin-right: 10px;
+}
+
+footer.bottom_footer {
+    background-color: beige;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer.bottom_footer .social-media ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer.bottom_footer .social-media ul li {
+    margin-right: 0;
+    margin-left: 12px;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+footer.bottom_footer .social-media ul li:hover,
+footer.bottom_footer .social-media ul li:active,
+footer.bottom_footer .social-media ul li:focus {
+    background-color: rgb(150, 97, 0);
+}
+
+footer.bottom_footer .social-media ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+footer.bottom_footer .social-media ul li a:hover,
+footer.bottom_footer .social-media ul li a:focus,
+footer.bottom_footer .social-media ul li a:active {
+    color: beige;
+}
+
+footer.bottom_footer .text_copyright p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/*** Responsive page ***/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .title_bluehost h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .title_bluehost p {
+        font-size: 16px;
+    }
+
+    header button.custom-btn {
+        margin-right: 28%;
+    }
+
+    .sec_AboutBluehost .paragh_one p,
+    .sec_AboutBluehost .paragh_two p {
+        text-align: center;
+    }
+
+    .sec_features .img_feautured img {
+        margin-right: 28%;
+    }
+
+    footer.bottom_footer .social-media ul {
+        text-align: center;
+    }
+
+    footer.bottom_footer .text_copyright p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .title_bluehost h4 {
+        font-size: 24px;
+    }
+
+    .title_bluehost p {
+        font-size: 16px;
+    }
+
+    header button.custom-btn,
+    .sec_features .img_feautured img {
+        margin-right: 38.5%;
+    }
+
+    footer.bottom_footer .social-media ul,
+    footer.bottom_footer .text_copyright p {
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .title_bluehost h4 {
+        font-size: 22px;
+    }
+
+    .title_bluehost p {
+        font-size: 18px;
+    }
+
+    .sec_features .img_feautured img {
+        margin-right: 41.5%;
+    }
+
+    footer.bottom_footer .social-media ul,
+    footer.bottom_footer .text_copyright p {
+        text-align: center;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .sec_AboutBluehost .paragh_one p, .sec_AboutBluehost .paragh_two p {
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Responsive page GOOD ! */
+}
